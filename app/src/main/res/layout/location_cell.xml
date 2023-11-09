@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="100dp"
+    android:stretchColumns="1,2,3,4">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cellID"
+            android:layout_column="1"
+            android:text="ID"
+            android:textColor="#000c4a"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"/>
+
+        <TextView
+            android:id="@+id/cellLat"
+            android:text="Latitude"
+            android:textColor="#000c4a"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_column="1"
+            android:padding="5dp"
+            android:layout_width="5dp"/>
+
+        <TextView
+            android:id="@+id/cellLong"
+            android:layout_column="1"
+            android:padding="5dp"
+            android:text="Longitude"
+            android:textColor="#000c4a"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="5dp"/>
+
+        <TextView
+            android:id="@+id/cellAddress"
+            android:maxLines="3"
+            android:text="Address"
+            android:textColor="#000c4a"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_column="1"
+            android:padding="5dp"
+            android:layout_width="75dp"/>
+    </TableRow>
+
+</TableLayout>
